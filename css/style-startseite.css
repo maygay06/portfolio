@@ -229,3 +229,35 @@
         z-index: 102;
     }
 }
+@media (max-width:430px){
+    .projekte__titel{
+        font-size: 0.79rem;
+    }
+    .about__me{
+        font-size: 0.79rem;
+    }
+    .projekte{
+        width: 834px;
+        height: 1194px;
+        position: relative;
+    }
+    .projekte__projekt--1 {
+        width: calc(172 / 430 * 100%);
+        height: calc(243 / 932 * 100%);
+        left: calc(23 / 430 * 100%);
+        top: calc(158 / 932 * 100%);
+    }
+    .projekte__projekt--2 {
+        width: calc(62 / 430 * 100%);
+        height: calc(87 / 932 * 100%);
+        left: calc(113 / 430 * 100%);
+        top: calc(102 / 932 * 100%);
+    }
+    .projekte__projekt--3 {
+        width: calc(213 / 430 * 100%);
+        height: calc(142 / 932 * 100%);
+        left: calc(42 / 430 * 100%);
+        top: calc(320 / 932 * 100%);
+    }
+    
+}
