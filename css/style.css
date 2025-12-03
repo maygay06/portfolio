@@ -10,10 +10,10 @@ body{
     padding-bottom: 3rem;
 }
 .projekte__titel{
-    font-family: "mozilla-text", sans-serif;
-    font-weight: 400;
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-size: 0.7rem;
+    font-size: 0.79rem;
     margin-top: 0.5rem;
     text-decoration: none;
     color: inherit;
@@ -25,10 +25,10 @@ body{
     color: #888;
 }
 .about__me{
-    font-family: "mozilla-text", sans-serif;
-    font-weight: 400;
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-size: 0.7rem;
+    font-size: 0.79rem;
     text-decoration: none;
     color: inherit;
     transition: color 0.2s ease-in-out;
@@ -43,7 +43,7 @@ body{
     margin: 0 auto;
 }
 .projekte__titel2{
-    font-family: "mozilla-text", sans-serif;
+    font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1rem;
@@ -51,44 +51,43 @@ body{
     padding-top: 5rem;
 }
 .projekte__beschreibung{
-    font-family: "mozilla-text", sans-serif;
-    font-weight: 400;
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-size: 0.7rem;
+    font-size: 0.79rem;
     text-align: justify;
     width: calc(200 / 1280 * 100%);
-    margin: 15px auto;
+    margin: auto;
     padding-bottom: 0.5rem;
 }
 .projekte__beschreibung::after {
     content: '';
-    display: inline-block;
     width: 100%;
 }
 .projekte__definition{
-    font-family: "mozilla-text", sans-serif;
-    font-weight: 400;
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 0.7rem;
     text-align: center;
 }
-@media (max-width: 640px){
+@media (max-width: 834px){
     .projekte__titel{
-        font-size: 0.5rem;
+        font-size: 0.79rem;
     }
     .about__me{
-        font-size: 0.5rem;
+        font-size: 0.79rem;
     }
     .projekte__titel2{
-        font-size: 0.9rem;
-        padding-top: 0.5rem;
+        font-size: 1rem;
+        padding-top: 2rem;
     }
     .projekte__beschreibung{
-        font-size: 0.6rem;
+        font-size: 0.79rem;
         width: 50%;
-        margin: 5px auto;
         text-align: justify;
         padding-bottom: 0.3rem;
+        padding-top: 1rem;
     }
     .projekte__definition{
         font-size: 0.5rem;
