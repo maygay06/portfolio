@@ -180,6 +180,7 @@
         height: calc(126 / 1194 * 100%);
         left: calc(276 / 834 * 100%);
         top: calc(102 / 1194 * 100%);
+        z-index: 50;
     }
     .projekte__projekt--3 {
         width: calc(317 / 834 * 100%);
@@ -234,6 +235,7 @@
 @media (max-width:430px){
     .projekte__titel{
         font-size: 0.79rem;
+        padding-bottom: 0.3rem;
     }
     .about__me{
         font-size: 0.79rem;
@@ -256,6 +258,7 @@
         height: calc(87 / 932 * 100%);
         left: calc(113 / 430 * 100%);
         top: calc(102 / 932 * 100%);
+        z-index: 50;
     }
     .projekte__projekt--3 {
         width: calc(213 / 430 * 100%);
