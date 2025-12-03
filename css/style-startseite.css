@@ -166,6 +166,8 @@
         width: 834px;
         height: 1194px;
         position: relative;
+        margin-left: auto;
+        margin-right: auto;
     }
     .projekte__projekt--1 {
         width: calc(291 / 834 * 100%);
@@ -237,9 +239,11 @@
         font-size: 0.79rem;
     }
     .projekte{
-        width: 834px;
-        height: 1194px;
+        width: 430px;
+        height: 932px;
         position: relative;
+        margin-left: auto;
+        margin-right: auto;
     }
     .projekte__projekt--1 {
         width: calc(172 / 430 * 100%);
