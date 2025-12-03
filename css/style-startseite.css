@@ -1,0 +1,165 @@
+.projekte {
+    max-width: 1280px;
+    height: 835px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projekte__projekt {
+    position: absolute;
+    cursor: pointer;
+}
+.projekte__projekt img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.4));
+    transition: filter 0.3s ease-in-out; 
+}
+.projekte__projekt:hover img{
+    filter: drop-shadow(6px 6px 7px rgba(0, 0, 0, 0.4));
+
+}
+.projekte__projekt--1 {
+    width: calc(291 / 1280 * 100%);
+    height: calc(411 / 835 * 100%);
+    left: calc(71 / 1280 * 100%);
+    top: calc(104 / 835 * 100%);
+    z-index: 80;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--1:hover{
+    z-index: 999;
+    transform: scale(1.005);
+}
+.projekte__projekt--2 {
+    width: calc(90 / 1280 * 100%);
+    height: calc(126 / 835 * 100%);
+    left: calc(331 / 1280 * 100%);
+    top: calc(129 / 835 * 100%);
+    z-index: 90;
+    transition: transform 0.3s ease-out;
+
+}
+.projekte__projekt--2:hover{
+    z-index: 999;
+    transform: scale(1.015);
+
+}
+.projekte__projekt--3 {
+    width: calc(341 / 1280 * 100%);
+    height: calc(227 / 835 * 100%);
+    left: calc(228 / 1280 * 100%);
+    top: calc(418 / 835 * 100%);
+    z-index: 70;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--3:hover{
+    z-index: 999;
+    transform: scale(1.005);
+}
+.projekte__projekt--4{
+    width: calc(239 / 1280 * 100%);
+    height: calc(342 / 835 * 100%);
+    left: calc(421 / 1280 * 100%);
+    top: calc(448 / 835 * 100%);
+    z-index: 60;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--4:hover{
+    z-index: 999;
+    transform: scale(1.005);
+}
+.projekte__projekt--5{
+    width: calc(377 / 1280 * 100%);
+    height: calc(251 / 835 * 100%);
+    left: calc(625 / 1280 * 100%);
+    top: calc(520 / 835 * 100%);
+    z-index: 20;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--5:hover{
+    z-index: 999;
+    transform: scale(1.005);
+}
+.projekte__projekt--6{
+    width: calc(262 / 1280 * 100%);
+    height: calc(220 / 835 * 100%);
+    left: calc(929 / 1280 * 100%);
+    top: calc(422 / 835 * 100%);
+    z-index: 10;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--6:hover{
+    z-index: 999;
+    transform: scale(1.005);
+}
+.projekte__projekt--7{
+    width: calc(91 / 1280 * 100%);
+    height: calc(129 / 835 * 100%);
+    left: calc(874 / 1280 * 100%);
+    top: calc(357 / 835 * 100%);
+    z-index: 30;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--7:hover{
+    z-index: 999;
+    transform: scale(1.015);
+}
+.projekte__projekt--8{
+    width: calc(201 / 1280 * 100%);
+    height: calc(133 / 835 * 100%);
+    left: calc(920 / 1280 * 100%);
+    top: calc(245 / 835 * 100%);
+    z-index: 40;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--8:hover{
+    z-index: 999;
+    transform: scale(1.005);
+}
+.projekte__projekt--9{
+    width: calc(109 / 1280 * 100%);
+    height: calc(109 / 835 * 100%);
+    left: calc(851 / 1280 * 100%);
+    top: calc(161 / 835 * 100%);
+    z-index: 50;
+    transition: transform 0.3s ease-out;
+}
+.projekte__projekt--9:hover{
+    z-index: 999;
+    transform: scale(1.015);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projekte__titel{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+}
+.about__me{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+}
+.about__me:hover{
+    color: #888;
+}
+
+@media (max-width: 640px){
+    .projekte__titel{
+        font-size: 0.5rem;
+    }
+    .about__me{
+        font-size: 0.5rem;
+    }
+}

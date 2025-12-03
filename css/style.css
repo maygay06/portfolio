@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.projekte__titel{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+    z-index: 100;
+
+}
+.projekte__titel:hover {
+    color: #888;
+}
+.about__me{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+}
+.about__me:hover{
+    color: #888;
+}
+.projekte__inszeniert img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.projekte__titel2{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.projekte__beschreibung{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+    text-align: justify;
+    width: calc(200 / 1280 * 100%);
+    margin: 15px auto;
+    padding-bottom: 0.5rem;
+}
+.projekte__beschreibung::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.projekte__definition{
+    font-family: "mozilla-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+    text-align: center;
+}
+@media (max-width: 640px){
+    .projekte__titel{
+        font-size: 0.5rem;
+    }
+    .about__me{
+        font-size: 0.5rem;
+    }
+    .projekte__titel2{
+        font-size: 0.9rem;
+        padding-top: 0.5rem;
+    }
+    .projekte__beschreibung{
+        font-size: 0.6rem;
+        width: 50%;
+        margin: 5px auto;
+        text-align: justify;
+        padding-bottom: 0.3rem;
+    }
+    .projekte__definition{
+        font-size: 0.5rem;
+
+    }
+    .portrait img{
+        width: 60vw;
+    }
+}
+.repros img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.portrait{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.portrait img{
+    width: calc(500 / 1280 * 100%);
+    height: auto;
+}
