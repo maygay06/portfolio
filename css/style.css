@@ -111,7 +111,7 @@ body{
 }
 @media (max-width:430px){
     .projekte__beschreibung{
-        font-size: 10px;
+        font-size: 13px;
         width: 50%;
         text-align: justify;
         padding-bottom: 2rem;
@@ -119,15 +119,18 @@ body{
         width: calc(230 / 320 * 100%);
     }
     .projekte__titel2{
-        font-size: 10px;
+        font-size: 13px;
         padding-top: 2rem;
         padding-bottom: 0%;
     }
     .projekte__definition{
-        font-size: 10px;
+        font-size: 13px;
     }
     .about__me{
-        font-size: 10px;  
+        font-size: 13px;  
+    }
+    .projekte__titel{
+        font-size: 13px;
     }
     .portrait img{
         width: 60%;

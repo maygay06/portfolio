@@ -218,7 +218,7 @@
         z-index: 140;
     }
     .projekte__projekt--8 {
-        width: calc(218 / 744 * 100%);
+        width: calc(s218 / 744 * 100%);
         height: calc(147 / 1194 * 100%);
         left: calc(538 / 744 * 100%);
         top: calc(477 / 1194 * 100%);
@@ -286,7 +286,7 @@
     .projekte__projekt--7 {
         width: calc(45 / 320 * 100%);
         height: calc(63 / 568 * 100%);
-        left: calc(250 / 320 * 100%);
+        left: calc(260 / 320 * 100%);
         top: calc(310 / 568 * 100%);
     }
     .projekte__projekt--8 {
