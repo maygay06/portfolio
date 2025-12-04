@@ -257,7 +257,7 @@
         height: calc(51 / 568 * 100%);
         left: calc(114 / 320 * 100%);
         top: calc(60 / 568 * 100%);
-        z-index: 50;
+        z-index: 100;
     }
     .projekte__projekt--3 {
         width: calc(137 / 320 * 100%);
