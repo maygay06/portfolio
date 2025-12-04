@@ -108,6 +108,7 @@ body{
         text-align: justify;
         padding-bottom: 2rem;
         padding-top: 0.2rem;
+        width: calc(260 / 320 * 100%);
     }
     .projekte__titel2{
         font-size: 1rem;

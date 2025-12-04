@@ -240,30 +240,65 @@
         font-size: 0.79rem;
     }
     .projekte{
-        width: 430px;
-        height: 932px;
+        width: 320px;
+        height: 568px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
     }
     .projekte__projekt--1 {
-        width: calc(172 / 430 * 100%);
-        height: calc(243 / 932 * 100%);
-        left: calc(23 / 430 * 100%);
-        top: calc(158 / 932 * 100%);
+        width: calc(119 / 320 * 100%);
+        height: calc(169 / 568 * 100%);
+        left: calc(20 / 320 * 100%);
+        top: calc(78 / 568 * 100%);
     }
     .projekte__projekt--2 {
-        width: calc(62 / 430 * 100%);
-        height: calc(87 / 932 * 100%);
-        left: calc(113 / 430 * 100%);
-        top: calc(102 / 932 * 100%);
+        width: calc(37 / 320 * 100%);
+        height: calc(51 / 568 * 100%);
+        left: calc(114 / 320 * 100%);
+        top: calc(60 / 568 * 100%);
         z-index: 50;
     }
     .projekte__projekt--3 {
-        width: calc(213 / 430 * 100%);
-        height: calc(142 / 932 * 100%);
-        left: calc(42 / 430 * 100%);
-        top: calc(320 / 932 * 100%);
+        width: calc(137 / 320 * 100%);
+        height: calc(91 / 568 * 100%);
+        left: calc(55 / 320 * 100%);
+        top: calc(207 / 568 * 100%);
     }
-    
+    .projekte__projekt--4 {
+        width: calc(98 / 320 * 100%);
+        height: calc(141 / 568 * 100%);
+        left: calc(41 / 320 * 100%);
+        top: calc(279 / 568 * 100%);
+    }
+    .projekte__projekt--5 {
+        width: calc(140 / 320 * 100%);
+        height: calc(87 / 568 * 100%);
+        left: calc(55 / 320 * 100%);
+        top: calc(394 / 568 * 100%);
+    }
+    .projekte__projekt--6 {
+        width: calc(104 / 320 * 100%);
+        height: calc(89 / 568 * 100%);
+        left: calc(176 / 320 * 100%);
+        top: calc(357 / 568 * 100%);
+    }
+    .projekte__projekt--7 {
+        width: calc(45 / 320 * 100%);
+        height: calc(63 / 568 * 100%);
+        left: calc(250 / 320 * 100%);
+        top: calc(310 / 568 * 100%);
+    }
+    .projekte__projekt--8 {
+        width: calc(74 / 320 * 100%);
+        height: calc(50 / 568 * 100%);
+        left: calc(221 / 320 * 100%);
+        top: calc(273 / 568 * 100%);
+    }
+    .projekte__projekt--9 {
+        width: calc(40 / 320 * 100%);
+        height: calc(40 / 568 * 100%);
+        left: calc(273 / 320 * 100%);
+        top: calc(239 / 568 * 100%);
+    }
 }
