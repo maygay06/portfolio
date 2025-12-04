@@ -49,7 +49,7 @@ body{
     font-size: 1rem;
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 .projekte__beschreibung{
     font-family: "antarctican-mono", sans-serif;
@@ -81,23 +81,42 @@ body{
     }
     .projekte__titel2{
         font-size: 1rem;
-        padding-top: 0.3rem;
+        padding-top: 2rem;
+        padding-bottom: 0%;
     }
     .projekte__beschreibung{
         font-size: 0.79rem;
         width: 50%;
         text-align: justify;
-        padding-bottom: 0.3rem;
-        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 0.5rem;
     }
     .projekte__definition{
         font-size: 0.5rem;
-
+        
     }
-    .portrait img{
-        width: 60vw;
+    .portrait img {
+        width: 70%;
+        min-width: 500px;
     }
+    
 }
+@media (max-width:430px){
+    .projekte__beschreibung{
+        font-size: 0.7rem;
+        width: 50%;
+        text-align: justify;
+        padding-bottom: 2rem;
+        padding-top: 0.2rem;
+    }
+    .projekte__titel2{
+        font-size: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 0%;
+    }
+    
+}
+
 .repros img{
     width: 100%;
     height: auto;
