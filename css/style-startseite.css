@@ -34,10 +34,10 @@
     transform: scale(1.005);
 }
 .projekte__projekt--2 {
-    width: calc(90 / 1280 * 100%);
-    height: calc(126 / 835 * 100%);
-    left: calc(331 / 1280 * 100%);
-    top: calc(129 / 835 * 100%);
+    width: calc(79 / 1280 * 100%);
+    height: calc(111 / 835 * 100%);
+    left: calc(322 / 1280 * 100%);
+    top: calc(71 / 835 * 100%);
     z-index: 90;
     transition: transform 0.3s ease-out;
 
@@ -50,8 +50,8 @@
 .projekte__projekt--3 {
     width: calc(341 / 1280 * 100%);
     height: calc(227 / 835 * 100%);
-    left: calc(228 / 1280 * 100%);
-    top: calc(418 / 835 * 100%);
+    left: calc(190 / 1280 * 100%);
+    top: calc(401 / 835 * 100%);
     z-index: 70;
     transition: transform 0.3s ease-out;
 }
@@ -72,10 +72,10 @@
     transform: scale(1.005);
 }
 .projekte__projekt--5{
-    width: calc(377 / 1280 * 100%);
-    height: calc(251 / 835 * 100%);
-    left: calc(625 / 1280 * 100%);
-    top: calc(520 / 835 * 100%);
+    width: calc(378 / 1280 * 100%);
+    height: calc(235 / 835 * 100%);
+    left: calc(636 / 1280 * 100%);
+    top: calc(536 / 835 * 100%);
     z-index: 20;
     transition: transform 0.3s ease-out;
 }
@@ -84,10 +84,10 @@
     transform: scale(1.005);
 }
 .projekte__projekt--6{
-    width: calc(262 / 1280 * 100%);
-    height: calc(220 / 835 * 100%);
-    left: calc(929 / 1280 * 100%);
-    top: calc(422 / 835 * 100%);
+    width: calc(261 / 1280 * 100%);
+    height: calc(225 / 835 * 100%);
+    left: calc(930 / 1280 * 100%);
+    top: calc(421 / 835 * 100%);
     z-index: 10;
     transition: transform 0.3s ease-out;
 }
@@ -96,10 +96,10 @@
     transform: scale(1.005);
 }
 .projekte__projekt--7{
-    width: calc(91 / 1280 * 100%);
-    height: calc(129 / 835 * 100%);
+    width: calc(96 / 1280 * 100%);
+    height: calc(135 / 835 * 100%);
     left: calc(874 / 1280 * 100%);
-    top: calc(357 / 835 * 100%);
+    top: calc(350 / 835 * 100%);
     z-index: 30;
     transition: transform 0.3s ease-out;
 }
@@ -108,9 +108,9 @@
     transform: scale(1.015);
 }
 .projekte__projekt--8{
-    width: calc(201 / 1280 * 100%);
-    height: calc(133 / 835 * 100%);
-    left: calc(920 / 1280 * 100%);
+    width: calc(193 / 1280 * 100%);
+    height: calc(130 / 835 * 100%);
+    left: calc(922 / 1280 * 100%);
     top: calc(245 / 835 * 100%);
     z-index: 40;
     transition: transform 0.3s ease-out;
@@ -163,73 +163,73 @@
         font-size: 0.79rem;
     }
     .projekte{
-        width: 834px;
-        height: 1194px;
+        width: 744px;
+        height: 1133px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
     }
     .projekte__projekt--1 {
-        width: calc(291 / 834 * 100%);
-        height: calc(411 / 1194 * 100%);
-        left: calc(47 / 834 * 100%);
-        top: calc(178 / 1194 * 100%);
+        width: calc(275 / 744 * 100%);
+        height: calc(388 / 1194 * 100%);
+        left: calc(56 / 744 * 100%);
+        top: calc(137 / 1194 * 100%);
     }
     .projekte__projekt--2 {
-        width: calc(90 / 834 * 100%);
-        height: calc(126 / 1194 * 100%);
-        left: calc(276 / 834 * 100%);
+        width: calc(68 / 744 * 100%);
+        height: calc(96 / 1194 * 100%);
+        left: calc(287 / 744 * 100%);
         top: calc(102 / 1194 * 100%);
-        z-index: 50;
+        z-index: 100;
     }
     .projekte__projekt--3 {
-        width: calc(317 / 834 * 100%);
+        width: calc(317 / 744 * 100%);
         height: calc(212 / 1194 * 100%);
-        left: calc(99 / 834 * 100%);
+        left: calc(99 / 744 * 100%);
         top: calc(453 / 1194 * 100%);
         z-index: 100;
     }
     .projekte__projekt--4 {
-        width: calc(203 / 834 * 100%);
+        width: calc(203 / 744 * 100%);
         height: calc(290 / 1194 * 100%);
-        left: calc(88 / 834 * 100%);
+        left: calc(88 / 744 * 100%);
         top: calc(630 / 1194 * 100%);
-        z-index: 101;
+        z-index: 110;
     }
     .projekte__projekt--5 {
-        width: calc(377 / 834 * 100%);
+        width: calc(377 / 744 * 100%);
         height: calc(251 / 1194 * 100%);
-        left: calc(214 / 834 * 100%);
+        left: calc(214 / 744 * 100%);
         top: calc(825 / 1194 * 100%);
-        z-index: 102;
+        z-index: 120;
     }
     .projekte__projekt--6 {
-        width: calc(262 / 834 * 100%);
+        width: calc(262 / 744 * 100%);
         height: calc(220 / 1194 * 100%);
-        left: calc(494 / 834 * 100%);
+        left: calc(494 / 744 * 100%);
         top: calc(675 / 1194 * 100%);
-        z-index: 103;
+        z-index: 130;
     }
     .projekte__projekt--7 {
-        width: calc(91 / 834 * 100%);
+        width: calc(91 / 744 * 100%);
         height: calc(129 / 1194 * 100%);
-        left: calc(686 / 834 * 100%);
+        left: calc(686 / 744 * 100%);
         top: calc(589 / 1194 * 100%);
-        z-index: 103;
+        z-index: 140;
     }
     .projekte__projekt--8 {
-        width: calc(218 / 834 * 100%);
+        width: calc(218 / 744 * 100%);
         height: calc(147 / 1194 * 100%);
-        left: calc(538 / 834 * 100%);
+        left: calc(538 / 744 * 100%);
         top: calc(477 / 1194 * 100%);
-        z-index: 103;
+        z-index: 70;
     }
     .projekte__projekt--9 {
-        width: calc(109 / 834 * 100%);
+        width: calc(109 / 744 * 100%);
         height: calc(109 / 1194 * 100%);
-        left: calc(516 / 834 * 100%);
+        left: calc(516 / 744 * 100%);
         top: calc(398 / 1194 * 100%);
-        z-index: 102;
+        z-index: 60;
     }
 }
 @media (max-width:430px){
