@@ -157,7 +157,7 @@
 
 @media (max-width: 834px){
     .projekte__titel{
-        font-size: 113px;
+        font-size: 13px;
     }
     .about__me{
         font-size: 13px;
@@ -218,7 +218,7 @@
         z-index: 140;
     }
     .projekte__projekt--8 {
-        width: calc(s218 / 744 * 100%);
+        width: calc(218 / 744 * 100%);
         height: calc(147 / 1194 * 100%);
         left: calc(538 / 744 * 100%);
         top: calc(477 / 1194 * 100%);
