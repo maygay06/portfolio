@@ -13,7 +13,7 @@ body{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.79rem;
+    font-size: 13px;
     margin-top: 0.5rem;
     text-decoration: none;
     color: inherit;
@@ -28,7 +28,7 @@ body{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.79rem;
+    font-size: 13px;
     text-decoration: none;
     color: inherit;
     transition: color 0.2s ease-in-out;
@@ -46,18 +46,18 @@ body{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 13px;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 .projekte__beschreibung{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.79rem;
+    font-size: 13px;
     text-align: justify;
-    width: calc(200 / 1280 * 100%);
+    width: 280px;
     margin: auto;
     padding-bottom: 0.5rem;
 }
@@ -69,35 +69,36 @@ body{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.7rem;
+    font-size: 13px;
     text-align: center;
 }
 .carrot img{
     width: 60%;
     display: block;
     margin: 0 auto;
+    padding-top: 5rem;
 }
 @media (max-width: 834px){
     .projekte__titel{
-        font-size: 0.79rem;
+        font-size: 13px;
     }
     .about__me{
-        font-size: 0.79rem;
+        font-size: 13px;
     }
     .projekte__titel2{
-        font-size: 1rem;
+        font-size: 13px;
         padding-top: 2rem;
         padding-bottom: 0%;
     }
     .projekte__beschreibung{
-        font-size: 0.79rem;
+        font-size: 13px;
         width: 50%;
         text-align: justify;
         padding-bottom: 1rem;
         padding-top: 0.5rem;
     }
     .projekte__definition{
-        font-size: 0.5rem;
+        font-size: 13px;
         
     }
     .portrait img {
@@ -110,7 +111,7 @@ body{
 }
 @media (max-width:430px){
     .projekte__beschreibung{
-        font-size: 0.7rem;
+        font-size: 10px;
         width: 50%;
         text-align: justify;
         padding-bottom: 2rem;
@@ -118,9 +119,15 @@ body{
         width: calc(230 / 320 * 100%);
     }
     .projekte__titel2{
-        font-size: 1rem;
+        font-size: 10px;
         padding-top: 2rem;
         padding-bottom: 0%;
+    }
+    .projekte__definition{
+        font-size: 10px;
+    }
+    .about__me{
+        font-size: 10px;  
     }
     .portrait img{
         width: 60%;

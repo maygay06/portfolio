@@ -140,13 +140,13 @@
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.79rem;
+    font-size: 13px;
 }
 .about__me{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 0.79rem;
+    font-size: 13px;
     transition: color 0.2s ease-in-out;
     text-decoration: none;
     color: inherit;
@@ -157,10 +157,10 @@
 
 @media (max-width: 834px){
     .projekte__titel{
-        font-size: 0.79rem;
+        font-size: 113px;
     }
     .about__me{
-        font-size: 0.79rem;
+        font-size: 13px;
     }
     .projekte{
         width: 744px;
@@ -234,10 +234,10 @@
 }
 @media (max-width:430px){
     .projekte__titel{
-        font-size: 0.79rem;
+        font-size: 10px;
     }
     .about__me{
-        font-size: 0.79rem;
+        font-size: 10px;
     }
     .projekte{
         width: 320px;
