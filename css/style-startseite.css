@@ -1,4 +1,6 @@
-#preloader{
+body{
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}#preloader{
     position: fixed;
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
@@ -148,7 +150,7 @@
 }
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     align-items: center;
 }
 .projekte__titel{
@@ -169,7 +171,13 @@
 .about__me:hover{
     color: #888;
 }
-
+.nav-links {
+    display: flex; 
+    gap: 15px; 
+}
+#mode-toggle {
+    font-size: 13px;
+}
 @media (max-width: 834px){
     .projekte__titel{
         font-size: 13px;
@@ -316,4 +324,10 @@
         left: calc(273 / 320 * 100%);
         top: calc(239 / 568 * 100%);
     }
+}
+.dark-mode .projekte__projekt img {
+    filter: drop-shadow(4px 4px 5px rgba(187, 134, 252, 0.4));
+}
+.dark-mode .projekte__projekt:hover img {
+    filter: drop-shadow(6px 6px 7px rgba(187, 134, 252, 0.4));
 }

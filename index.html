@@ -9,7 +9,44 @@
     <link rel="stylesheet" href="https://use.typekit.net/aby5ldt.css">
 
     <title>Maylin Aregger</title>
-    <meta name="description" content="TEXT FÜR UNTERZEILE IN SUCHMASCHINEN HIER EINGEBEN" />
+    <meta name="description" content="Portfolio" />
+    <style>
+   
+    #mode-toggle {
+        text-decoration: none; 
+        cursor: pointer;
+    }
+
+    #mode-toggle:hover {
+        color: #000000; 
+    }
+    .dark-mode {
+        background-color: #121212; 
+        color: #e0e0e0; 
+    }
+
+    .dark-mode a {
+        color: #e0e0e0; 
+    }
+    .dark-mode .projekte__titel, .dark-mode .about__me {
+        color: #e0e0e0;
+    }
+
+   
+    .dark-mode #preloader {
+        background-color: #121212;
+    }
+
+    .dark-mode #counter {
+        color: #e0e0e0;
+    }
+
+    .dark-mode .about__me:hover,
+    .dark-mode #mode-toggle:hover {
+        color: #BB86FC; 
+    }
+
+</style>
 </head>
 
 <body>
@@ -18,7 +55,8 @@
     </div>
     <div class="container">
         <div class="projekte__titel"> Projekte </div>
-        <a href="aboutme.html" class="about__me">About me</div>
+        <a href="aboutme.html" class="about__me">About me</a>
+        <a href="#" id="mode-toggle" class="about__me">dark?</a>
     </div>
 
     <div class="projekte">
