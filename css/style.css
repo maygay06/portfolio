@@ -78,6 +78,18 @@ body{
     margin: 0 auto;
     padding-top: 5rem;
 }
+.video{
+    width: 30%;
+    margin: 5rem auto 5rem auto;
+    background-color: #f0f0f0;
+    padding: 0.1rem;
+}
+.video video{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media (max-width: 834px){
     .projekte__titel{
         font-size: 13px;
@@ -107,6 +119,15 @@ body{
     }
     .carrot img {
         width: 100%;
+    }
+    .video{
+        width: 60%;
+        margin: auto
+    }
+    .video video{
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }
 @media (max-width:430px){
@@ -138,6 +159,15 @@ body{
     }
     .carrot img {
         width: 100%;
+    }
+    .video{
+        width: 60%;
+        margin: auto
+    }
+    .video video{
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }
 
