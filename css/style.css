@@ -72,6 +72,14 @@ body{
     font-size: 13px;
     text-align: center;
 }
+.hashtag{
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20rem;
+}
 .carrot img{
     width: 60%;
     display: block;
