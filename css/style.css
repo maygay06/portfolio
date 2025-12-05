@@ -33,6 +33,17 @@ body{
     color: inherit;
     transition: color 0.2s ease-in-out;
 }
+.about--me{
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    text-align: justify;
+    width: 280px;
+    margin: auto;
+    padding-bottom: 0.5rem;
+    padding-top: 4rem;
+}
 .about__me:hover{
     color: #888;
 }
@@ -78,7 +89,7 @@ body{
     font-style: normal;
     font-size: 13px;
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 5rem;
 }
 .carrot img{
     width: 60%;
