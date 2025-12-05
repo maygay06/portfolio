@@ -1,6 +1,11 @@
 body{
+    background-color: white;
+    color: black;
     margin: 0;
-    padding: 0;
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
 }
 .container{
     display: grid;
@@ -203,4 +208,18 @@ body{
 .portrait img{
     width: calc(500 / 1280 * 100%);
     height: auto;
+}
+
+.dark-mode {
+    background-color: #121212; 
+    color: #e0e0e0; 
+}
+
+.dark-mode a {
+    color: #e0e0e0; 
+}
+
+.dark-mode .about__me:hover, 
+.dark-mode .projekte__titel:hover {
+    color: #BB86FC; 
 }
