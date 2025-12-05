@@ -234,10 +234,10 @@
 }
 @media (max-width:430px){
     .projekte__titel{
-        font-size: 10px;
+        font-size: 13px;
     }
     .about__me{
-        font-size: 10px;
+        font-size: 13px;
     }
     .projekte{
         width: 320px;
