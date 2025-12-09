@@ -45,6 +45,7 @@ body{
     font-size: 13px;
     text-align: center;
     padding-top: 5rem;
+    z-index: 1000;
 }
 .about__me:hover{
     color: #888;
