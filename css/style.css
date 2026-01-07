@@ -38,7 +38,7 @@ body{
     color: inherit;
     transition: color 0.2s ease-in-out;
 }
-.about--me{
+.mein--name{
     font-family: "antarctican-mono", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -46,6 +46,18 @@ body{
     text-align: center;
     padding-top: 5rem;
     z-index: 1000;
+}
+.about--me{
+    font-family: "antarctican-mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    text-align: justify;
+    width: 280px;
+    padding-top: 1rem;
+    z-index: 1000;
+    mix-blend-mode: difference;
+    color: white;
 }
 .about__me:hover{
     color: #888;
@@ -205,6 +217,8 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
+    float: left;
+
 }
 .portrait img{
     width: calc(500 / 1280 * 100%);
@@ -223,4 +237,11 @@ body{
 .dark-mode .about__me:hover, 
 .dark-mode .projekte__titel:hover {
     color: #BB86FC; 
+} .contact-link {
+    color: inherit;
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+}
+.contact-link:hover {
+    opacity: 0.7;
 }
