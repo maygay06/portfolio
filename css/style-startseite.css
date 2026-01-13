@@ -324,8 +324,8 @@
     }
 }
 .dark-mode .projekte__projekt img {
-    filter: drop-shadow(4px 4px 5px rgba(187, 134, 252, 0.4));
+    filter: drop-shadow(4px 4px 5px rgba(197, 149, 255, 0.519));
 }
 .dark-mode .projekte__projekt:hover img {
-    filter: drop-shadow(6px 6px 7px rgba(187, 134, 252, 0.4));
+    filter: drop-shadow(6px 6px 7px rgba(197, 149, 255, 0.519));
 }
